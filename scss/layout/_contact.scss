@@ -1,0 +1,163 @@
+.contact {
+  &__div {
+    display: flex;
+    justify-content: space-between;
+    &_title{
+      width: 300px;
+    }
+    &-forma {
+      &-text {
+        font-family: "Public Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 30px;
+        color: #33323d;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+      }
+
+      &-input {
+        height: 48px;
+        width: 635px;
+        background: #33323d;
+        opacity: 0.1;
+        font-family: "Public Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 30px;
+      }
+
+      &-input:hover{
+        border: 1px solid #5FB4A2;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+// RESPONSIVE
+@media only screen and (max-width:992px) {
+  .contact {
+    &__div {
+      display: flex;
+      justify-content: space-between;
+      &_title{
+        width: 300px;
+      }
+      &-forma {
+        &-input {
+          height: 48px;
+          width: 535px;
+          background: #33323d;
+          opacity: 0.1;
+          font-family: "Public Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width:768px) {
+  .contact {
+    &__div {
+      display: flex;
+      justify-content: space-between;
+      &_title{
+        width: 300px;
+      }
+      &-forma {
+        &-input {
+          height: 48px;
+          width: 435px;
+          background: #33323d;
+          opacity: 0.1;
+          font-family: "Public Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width:688px) {
+  .contact {
+    &__div {
+      display: flex;
+      justify-content: space-between;
+      &_title{
+        width: 300px;
+      }
+      &-forma {
+        &-input {
+          height: 48px;
+          width: 335px;
+          background: #33323d;
+          opacity: 0.1;
+          font-family: "Public Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width:576px) {
+  .contact {
+    &__div {
+      display: block;
+      justify-content: space-between;
+  
+      &-forma {
+        &-text {
+          font-family: "Public Sans";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 13px;
+          line-height: 30px;
+          color: #33323d;
+          mix-blend-mode: normal;
+          opacity: 0.8;
+        }
+  
+        &-input {
+          height: 48px;
+          width: 100%;
+          background: #33323d;
+          opacity: 0.1;
+          font-family: "Public Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 30px;
+        }
+  
+        &-input:hover{
+          border: 1px solid #5FB4A2;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width:480px) {
+   
+}
+@media only screen and (max-width:375px) {
+  
+}
+@media only screen and (max-width:311px) {
+   
+}
